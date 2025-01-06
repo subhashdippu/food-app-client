@@ -19,7 +19,7 @@ const CartPage = () => {
   // Handle quantity increase
   const handleIncrease = async (item) => {
     try {
-      const response = await fetch(`https://serverfoodapp.onrender.com/carts/${item._id}`, {
+      const response = await fetch(`https://backend-for-food-app.onrender.com/${item._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
