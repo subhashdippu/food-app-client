@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL: "https://serverfoodapp.onrender.com",
+    baseURL: "https://backend-for-food-app.onrender.com",
 });
 
 const useAxiosPublic = () => {
